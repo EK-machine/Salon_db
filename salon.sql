@@ -196,14 +196,14 @@ INSERT INTO public.services VALUES (5, 'trim');
 -- Name: appointments_appointment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 13, true);
+SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 7, true);
 
 
 --
 -- Name: customers_customer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.customers_customer_id_seq', 64, true);
+SELECT pg_catalog.setval('public.customers_customer_id_seq', 10, true);
 
 
 --
@@ -264,4 +264,5 @@ ALTER TABLE ONLY public.appointments
 --
 -- PostgreSQL database dump complete
 --
+
 
